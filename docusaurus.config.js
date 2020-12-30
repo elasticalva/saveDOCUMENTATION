@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'elasticalva', // Usually your GitHub org/user name.
   projectName: 'SRPGC', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
       title: 'SRPGC',
       logo: {
@@ -17,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/mdx',
           activeBasePath: 'docs',
           label: 'Documentation',
           position: 'left',
@@ -37,12 +38,12 @@ module.exports = {
           title: 'Documentation',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Quick Start',
               to: 'docs/',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2/',
+              to: 'docs/intro1/',
             },
           ],
         },
@@ -67,8 +68,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'About',
+              to: 'about',
             },
             {
               label: 'GitHub',
@@ -89,12 +90,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

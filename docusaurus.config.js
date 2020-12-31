@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'SRPGC',
+  title: 'srpgc',
   tagline: 'GAME DESIGN DOCUMENT',
-  url: 'https://elasticalva.github.io/srpgc/',
+  url: 'https://elasticalva.github.io/srpgc',
   baseUrl: '/srpgc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'elasticalva', // Usually your GitHub org/user name.
-  projectName: 'SRPGC', // Usually your repo name.
+  projectName: 'srpgc', // Usually your repo name.
   themeConfig: {
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
     navbar: {
-      title: 'SRPGC',
+      title: 'srpgc',
       logo: {
         alt: 'SRPGC Logo',
         src: 'img/logo.png',
@@ -23,6 +23,19 @@ module.exports = {
           label: 'Documentation',
           position: 'left',
         },
+        {
+          to: 'docs/18usag',
+          activeBasePath: 'docs',
+          label: 'Guides',
+          position: 'left',
+        },
+        {
+          to: 'docs/02meet',
+          activeBasePath: 'docs',
+          label: 'Community',
+          position: 'left',
+        },
+
         {to: 'about', label: 'About', position: 'right'},
         {
           href: 'https://github.com/elasticalva/srpgc',
@@ -42,8 +55,8 @@ module.exports = {
               to: 'docs/',
             },
             {
-              label: 'Who?',
-              to: 'docs/02meet',
+              label: 'Help',
+              to: 'docs/18usag',
             },
           ],
         },
@@ -51,17 +64,17 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Who?',
+              to: 'docs/02meet',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Contribution',
+              to: 'docs/23cont',
             },
-            {
+            /**{
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
-            },
+            },*/
           ],
         },
         {
@@ -73,7 +86,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://elasticalva.github.io/srpgc/',
+              href: 'https://elasticalva.github.io/srpgc',
             },
           ],
         },
@@ -89,7 +102,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'srpgc',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -7,7 +7,7 @@ slug: /
 
 (high concept) Think of a RPG Diablo like but with cards.
 
-## 🔎 Overview
+### 🔎 Overview
 Pitch / cover letter?
 WHAT: An action RPG card game
 WHY: Can't find an action RPG card game with casual pvp 
@@ -15,7 +15,7 @@ HOW:
 WHEN:
 WHO:
 
-## 🔎 Overview
+### 🔎 Overview
 Pitch / cover letter?
 WHAT: An action RPG card game
 WHY: Can't find an action RPG card game with casual pvp 
@@ -23,7 +23,7 @@ HOW:
 WHEN:
 WHO:
 
-## 📑 Concept Statement
+### 📑 Concept Statement
 Is it a puzzle game in which an alien must find his way home? This is where you outline what the main idea of the game will be.
 
 Further along, this is the lovechild between the high concept and pitch. This is where you outline and describe all of the aspects of the game. We’re talking story, demographics, risk analysis and a boatload of further information.
@@ -70,6 +70,10 @@ Set deadlines on these tasks.
 
 Ch-ch-changes
 Keep the changes updated in the document–you might want to put everything you replace at the end of the document.
+
+https://plan.io/blog/technical-documentation/
+
+https://www.nuclino.com/articles/agile-documentation
 
 
 

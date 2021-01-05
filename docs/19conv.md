@@ -4,4 +4,4 @@ title: 💬 Conventions
 sidebar_label: Conventions
 ---
 
-empty
+Project documentation template

@@ -4,4 +4,4 @@ title: 📘 The Story
 sidebar_label: The Story
 ---
 
-Delving deeper, you need to flesh out the descriptions of the story, setting, and who the characters will eventually be.
+Delving deeper, you need to flesh out the descriptions of the story, setting, and who the characters will eventually be..
